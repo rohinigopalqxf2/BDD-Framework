@@ -1,0 +1,484 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "tests/FrontendTests/test_Factorial_App.feature:5",
+      "name": "Verify Factorial app functionality",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "tests/FrontendTests/test_Factorial_App.feature:6",
+          "match": {
+            "arguments": [
+              {
+                "name": "site",
+                "value": "\"Factorial app\""
+              }
+            ],
+            "location": "Utils/CommonSteps/webstepscommon.py:7"
+          },
+          "name": "I go to \"Factorial app\" page",
+          "result": {
+            "duration": 9.668886184692383,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/FrontendTests/test_Factorial_App.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_title",
+                "value": "Factoriall"
+              }
+            ],
+            "location": "Utils/CommonSteps/webstepscommon.py:20"
+          },
+          "name": "the page title should be \"Factoriall\"",
+          "result": {
+            "duration": 0.012028217315673828,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/FrontendTests/test_Factorial_App.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "value",
+                "value": "123"
+              }
+            ],
+            "location": "tests/FrontendTests/steps/Factorial_App.py:5"
+          },
+          "name": "I type \"123\" in the name field in Factorial text",
+          "result": {
+            "duration": 0.056972503662109375,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "tests/FrontendTests/test_Factorial_App.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "calc_bt",
+                "value": "Calculate"
+              }
+            ],
+            "location": "tests/FrontendTests/steps/Factorial_App.py:11"
+          },
+          "name": "I click on \"Calculate\" button",
+          "result": {
+            "duration": 0.23612618446350098,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "tests/FrontendTests/test_Factorial_App.feature:3",
+  "name": "Verify the Factorial app",
+  "status": "passed",
+  "tags": [
+    "regression"
+  ]
+},
+
+{
+  "elements": [
+    {
+      "keyword": "Scenario Outline",
+      "location": "tests/FrontendTests/test_ScenarioOutline_example.feature:10",
+      "name": "Verify Example form functionality -- @1.1 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "tests/FrontendTests/test_ScenarioOutline_example.feature:5",
+          "match": {
+            "arguments": [
+              {
+                "name": "site",
+                "value": "\"tutorials\""
+              }
+            ],
+            "location": "Utils/CommonSteps/webstepscommon.py:7"
+          },
+          "name": "I go to \"tutorials\" page",
+          "result": {
+            "duration": 10.053432941436768,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/FrontendTests/test_ScenarioOutline_example.feature:6",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_title",
+                "value": "Qxf2 Services: Selenium training main"
+              }
+            ],
+            "location": "Utils/CommonSteps/webstepscommon.py:20"
+          },
+          "name": "the page title should be \"Qxf2 Services: Selenium training main\"",
+          "result": {
+            "duration": 0.002953767776489258,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "tests/FrontendTests/test_ScenarioOutline_example.feature:11",
+      "name": "Verify Example form functionality -- @1.2 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "tests/FrontendTests/test_ScenarioOutline_example.feature:5",
+          "match": {
+            "arguments": [
+              {
+                "name": "site",
+                "value": "\"Factorial app\""
+              }
+            ],
+            "location": "Utils/CommonSteps/webstepscommon.py:7"
+          },
+          "name": "I go to \"Factorial app\" page",
+          "result": {
+            "duration": 12.57411789894104,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/FrontendTests/test_ScenarioOutline_example.feature:6",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_title",
+                "value": "Factoriall"
+              }
+            ],
+            "location": "Utils/CommonSteps/webstepscommon.py:20"
+          },
+          "name": "the page title should be \"Factoriall\"",
+          "result": {
+            "duration": 0.0031228065490722656,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "tests/FrontendTests/test_ScenarioOutline_example.feature:2",
+  "name": "Showing useage of scenario outline",
+  "status": "passed",
+  "tags": []
+},
+
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:5",
+      "name": "Verify Example form functionality",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:6",
+          "match": {
+            "arguments": [
+              {
+                "name": "site",
+                "value": "\"tutorials\""
+              }
+            ],
+            "location": "Utils/CommonSteps/webstepscommon.py:7"
+          },
+          "name": "I go to \"tutorials\" page",
+          "result": {
+            "duration": 11.199984073638916,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_title",
+                "value": "Qxf2 Services: Selenium training main"
+              }
+            ],
+            "location": "Utils/CommonSteps/webstepscommon.py:20"
+          },
+          "name": "the page title should be \"Qxf2 Services: Selenium training main\"",
+          "result": {
+            "duration": 0.006000995635986328,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "name",
+                "value": "Rohini1"
+              }
+            ],
+            "location": "tests/FrontendTests/steps/Example_Form.py:6"
+          },
+          "name": "I type \"Rohini1\" in the name field in Example Form",
+          "result": {
+            "duration": 0.051581621170043945,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "email",
+                "value": "ro@ro.com"
+              }
+            ],
+            "location": "tests/FrontendTests/steps/Example_Form.py:13"
+          },
+          "name": "I type \"ro@ro.com\" in the email field in Example Form",
+          "result": {
+            "duration": 0.023000001907348633,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:10",
+          "match": {
+            "arguments": [
+              {
+                "name": "phone",
+                "value": "99002321"
+              }
+            ],
+            "location": "tests/FrontendTests/steps/Example_Form.py:19"
+          },
+          "name": "I type \"99002321\" in the phone field in Example Form",
+          "result": {
+            "duration": 0.23900055885314941,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:11",
+          "match": {
+            "arguments": [
+              {
+                "name": "button",
+                "value": "Click me"
+              }
+            ],
+            "location": "tests/FrontendTests/steps/Example_Form.py:25"
+          },
+          "name": "click on \"Click me\" button",
+          "result": {
+            "duration": 0.5620882511138916,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "smoke"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:14",
+      "name": "Verify error message when invalid email is entered",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:15",
+          "match": {
+            "arguments": [
+              {
+                "name": "site",
+                "value": "\"tutorials\""
+              }
+            ],
+            "location": "Utils/CommonSteps/webstepscommon.py:7"
+          },
+          "name": "I go to \"tutorials\" page",
+          "result": {
+            "duration": 14.674416780471802,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:16",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_title",
+                "value": "Qxf2 Services: Selenium training main"
+              }
+            ],
+            "location": "Utils/CommonSteps/webstepscommon.py:20"
+          },
+          "name": "the page title should be \"Qxf2 Services: Selenium training main\"",
+          "result": {
+            "duration": 0.007999897003173828,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:17",
+          "match": {
+            "arguments": [
+              {
+                "name": "name",
+                "value": "Rohini2"
+              }
+            ],
+            "location": "tests/FrontendTests/steps/Example_Form.py:6"
+          },
+          "name": "I type \"Rohini2\" in the name field in Example Form",
+          "result": {
+            "duration": 0.2445967197418213,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:18",
+          "match": {
+            "arguments": [
+              {
+                "name": "email",
+                "value": "rohini2"
+              }
+            ],
+            "location": "tests/FrontendTests/steps/Example_Form.py:13"
+          },
+          "name": "I type \"rohini2\" in the email field in Example Form",
+          "result": {
+            "duration": 0.024003267288208008,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:19",
+          "match": {
+            "arguments": [
+              {
+                "name": "phone",
+                "value": "99002321"
+              }
+            ],
+            "location": "tests/FrontendTests/steps/Example_Form.py:19"
+          },
+          "name": "I type \"99002321\" in the phone field in Example Form",
+          "result": {
+            "duration": 0.05313754081726074,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "And",
+          "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:20",
+          "match": {
+            "arguments": [
+              {
+                "name": "button",
+                "value": "Click me"
+              }
+            ],
+            "location": "tests/FrontendTests/steps/Example_Form.py:25"
+          },
+          "name": "click on \"Click me\" button",
+          "result": {
+            "duration": 0.23531484603881836,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:21",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_message",
+                "value": "Please enter a valid email address"
+              }
+            ],
+            "location": "tests/FrontendTests/steps/Example_Form.py:32"
+          },
+          "name": "error message \"Please enter a valid email address\" should be displayed",
+          "result": {
+            "duration": 0.027212858200073242,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "tests/FrontendTests/test_Selenium_Tutorials_main.feature:2",
+  "name": "Verify the Example form on Selenium main tutorials page",
+  "status": "passed",
+  "tags": []
+}
+]
